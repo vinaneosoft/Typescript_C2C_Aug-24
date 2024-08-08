@@ -46,3 +46,10 @@ const multiply = function (num1:number, num2:number) : number{
 const add = (a: number, b: number): number => a + b;
 
 const upperstring = (str:string): string => str.toUpperCase();
+
+let city:any;
+city="Koparkhairane";
+console.log(city.slice(5.7));
+console.log((<string>city).slice(5,7)); //intellisense
+
+
