@@ -34,11 +34,9 @@ function test1():number  // type annotations
 {
     return 10;
 }
-
 function test2():void{
    // return 10;
 }
-
 const multiply = function (num1:number, num2:number) : number{
     return num1 * num2;
 }
@@ -55,3 +53,13 @@ console.log((<string>city).slice(5,7)); //intellisense
 
 let empcode="344555";
 let ecode=(<number>(<any>empcode))
+
+
+
+let a:unknown;
+a=567;
+a="hi";
+
+let b: any
+b=567;
+b="hi";
