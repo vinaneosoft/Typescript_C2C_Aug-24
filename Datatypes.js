@@ -1,0 +1,12 @@
+var sirname;
+var pie = 3.142;
+var salary;
+var maritalstatus = true;
+var lastname;
+var compnaycode;
+var myswitch;
+var s1 = "hi";
+var s2 = new String(s1);
+var n1 = 56;
+var nobject = new Number(n1);
+var mobbject = new Boolean(maritalstatus);
