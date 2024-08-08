@@ -53,3 +53,5 @@ console.log(city.slice(5.7));
 console.log((<string>city).slice(5,7)); //intellisense
 
 
+let empcode="344555";
+let ecode=(<number>(<any>empcode))
