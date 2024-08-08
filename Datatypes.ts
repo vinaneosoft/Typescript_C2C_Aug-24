@@ -10,7 +10,6 @@ lname="pawar";  // try to assign incompatible value
 
 let lastname:String;
 lastname=new String(lname);  // wrapping
-
 lname=lastname.valueOf();  // unwrapping
 
 
@@ -19,7 +18,6 @@ empid=56;
 
 let employeeId:Number;
 employeeId=new Number(empid); // wrapping
-
 empid=employeeId.valueOf(); // unwrapping
 
 let married:boolean;
@@ -27,7 +25,6 @@ married=true;;
 
 let marriedStatus:Boolean;
 marriedStatus=new Boolean(married); // wrapping
-
 // make unwrapping
 
 
