@@ -23,17 +23,14 @@ let varname=899;
    arrow=()=>{
     console.log("arrow function");
     }
-}
-
+}// class body
 let account1:BankAccount; // custom Data types
 account1=new BankAccount();  // default constructor : no parameters // default values
 let account2=new BankAccount();
 console.log(account1);
 console.log(account1.accountNumber);
-
 console.log(account2);
 console.log(account2.custId);
-
 account1.accountBalance=45000; // state change
 account2.accountBalance=89000; // diff memory
 console.log(account1.accountBalance);
@@ -42,7 +39,5 @@ account1.depositMoney(10000); // instance method
 account2.depositMoney(20000);
 console.log(account1.accountBalance);
 console.log(account2.accountBalance);
-
 console.log(account1);
-
 console.log(account2);
