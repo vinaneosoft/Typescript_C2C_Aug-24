@@ -1,0 +1,7 @@
+1. purely object oriented : class, objects, inheritance, interfaces, generics, modules, decorators
+
+2. strictly typed language : let com : string,  function abc():number {}, primitive data types,wrappers
+
+3. typescript modules : export, import 
+
+4. typescript is compiled : file.ts --> tsc file.ts --> it will show compile time errors if we have --> else file.js
