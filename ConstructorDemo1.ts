@@ -5,7 +5,7 @@
     accountBalance:number;
 
     constructor(){
-        console.log("in non p constructor");
+        console.log("in 0-p constructor");
         this.accountNumber=0;
         this.custId=0;
         this.accountType="savings";
@@ -46,3 +46,4 @@
  console.log(account2.accountBalance);
  console.log(account1);
  console.log(account2);
+
