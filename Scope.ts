@@ -39,7 +39,7 @@ class BankAccount{
  }// class body end
  // scope of private properties ends here
  
- let account1=new BankAccount("savings",23000, 4500, 6666666666);  // default constructor : no parameters
+ let account1=new BankAccount("savings",23000, 4500, 6666666666);  
  let account2=new BankAccount("salary");
  console.log(account1);
  console.log(account2);
