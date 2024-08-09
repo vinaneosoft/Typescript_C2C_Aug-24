@@ -30,8 +30,8 @@ console.log(college);
 
 let college1=new mycollege.College();
 console.log( college1.collegeId);  // public : accessible anywhere
-console.log( college1.collegeBudget);  // private // within class
-console.log( college1.collegeRank);  // protected // within class and its subclass
+//console.log( college1.collegeBudget);  // private // within class
+//console.log( college1.collegeRank);  // protected // within class and its subclass
 
 //1. import with {}
 //2. import with {} and alias
