@@ -29,12 +29,14 @@ let dpt=new mycollege.Department();
 console.log(college);
 
 let college1=new mycollege.College();
-console.log( college1.collegeId);  // public
-console.log( college1.collegeBudget);  // private
-console.log( college1.collegeRank);  // protected
+console.log( college1.collegeId);  // public : accessible anywhere
+console.log( college1.collegeBudget);  // private // within class
+console.log( college1.collegeRank);  // protected // within class and its subclass
 
 //1. import with {}
 //2. import with {} and alias
 //3. import *  with prefix
 //4. default export, import without {}
 //5. Cannot assign to imported variables because it is an import.
+//6. scope : private , public , protected 
+
