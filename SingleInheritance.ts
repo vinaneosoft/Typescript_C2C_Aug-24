@@ -1,4 +1,4 @@
-class NeoEmployee{
+export class NeoEmployee{
     employeeId:number;
     employeeName:string;
     deptId:string;
@@ -14,7 +14,7 @@ class NeoEmployee{
     }
 }
 
-class NeoTrainer extends NeoEmployee{
+export class NeoTrainer extends NeoEmployee{
     trainingTechnologies:string[]
     payPerHr=500;
     getVariablePay(extrahrs){
